@@ -1,0 +1,16 @@
+{
+  "name": "desafio-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open --e2e -b chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "cypress": "^13.6.4"
+  }
+}
