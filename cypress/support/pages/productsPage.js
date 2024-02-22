@@ -47,8 +47,11 @@ export class ProductsPage {
         cy.get('#closeModal').click();
     }
     
-    noProduct(){
+    noProduct(card, name, price){
         cy.url().should('include', 'https://pushing-it.vercel.app/home/onlineshop');
+        cy.get('.chakra-image').contains(card).should('not.exist');
+        cy.get('.chakra-text').contains(name).should('not.exist');
+        cy.get('.chakra-text').contains(price).should('not.exist');
     }
 };
 

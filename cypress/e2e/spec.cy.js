@@ -39,7 +39,7 @@ describe('Desafío 1', () => {
         productsPage.deletedProduct(datosFixture.product.name);
         productsPage.searchSelectType();
         productsPage.searchProductId(datosFixture.product.id);
-        productsPage.noProduct();   
-    });   
+        productsPage.noProduct(datosFixture.product.card, datosFixture.product.name, datosFixture.product.price);   
+    });
        
 });
