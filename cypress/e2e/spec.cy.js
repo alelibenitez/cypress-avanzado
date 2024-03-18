@@ -15,7 +15,7 @@ describe('Desafío 2', () => {
             cy.visit('');
             cy.onLineShopLink();
             cy.searchProductId(data.product.id);
-            cy.verificarEdicion();        
+            cy.verificarEdicion('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.es%2Ffotos-premium%2Fcarteras-mujer-tienda-creada-tecnologia-generative-ai_49285113.htm&psig=AOvVaw3gvFMABruKIzvcni2YgbDx&ust=1710513873835000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCKCnofH-84QDFQAAAAAdAAAAABAE', 'Carteras 2', 56677 );        
         });       
     });       
 });

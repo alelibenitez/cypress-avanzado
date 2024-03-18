@@ -47,6 +47,4 @@ Cypress.Commands.add('editarProducto', (id)=>{
 })
 })
 
-//data.product.id el id sería eso
 
-//body:data.product sería el body
